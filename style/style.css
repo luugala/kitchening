@@ -1,0 +1,49 @@
+@media (max-width: 460px){
+img{
+    display:block;
+    margin:auto;
+    }
+.container{
+    background-size: cover;
+    background-image:url(images\bg-body.png);
+}
+body{    
+       text-align: justify;
+       font-family: 'Roboto', sans-serif;
+    }
+.main-nav ul{background-color: gray;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    }
+.banner{
+        display: none;
+    }
+}
+@media (min-width: 460px) {
+    body{background-size: cover;
+        background-image:url(images\bg-body.png);
+    };
+    .main-header{
+        display: block;
+        margin: auto;
+    }
+    img{
+        display:block;
+        margin:auto;
+        }
+    .container{
+        background-size: cover;
+        background-image:url(images\bg-body.png);
+    }
+    body{    
+           text-align: justify;
+           font-family: 'Roboto', sans-serif;
+    }
+    .main-nav ul{background-color: gray;
+        text-align: center;
+        list-style: none;
+        ;
+        }
+  }
+  
