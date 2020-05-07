@@ -3,8 +3,8 @@
     body{
         text-align: left;
         font-family: 'Roboto', sans-serif;
-        background-image:url(images\bg-body.png);
-        }
+        background-image: url(../images/bg-body.png);
+    }
     .container{
         display: block;
         margin-left: auto;
@@ -94,8 +94,7 @@
     }
     .zoom{
         position: absolute;
-        width: 100%;
-        height: auto;
+        width: 95%;
         bottom: 45%;
         background-color: rgba(0, 0, 0, 0.3);
         text-decoration: none;
@@ -139,8 +138,7 @@
     body{    
         text-align: justify;
         font-family: 'Roboto', sans-serif;
-        background-size: cover;
-        background-image:url(images\bg-body.png);
+        background-image: url(../images/bg-body.png);
     }   
     .banner{
         margin-top: 2%;
@@ -205,7 +203,7 @@
     }
     .zoom{
         position: absolute;
-        width: 98%;
+        width: 97%;
         height: auto;
         bottom: 40%;
         background-color: rgba(0, 0, 0, 0.3);
@@ -222,6 +220,33 @@
         color: white;
         margin-bottom: 5%;
         margin-top: 2%;
+    }
+    .main-footer{
+        display: block;
+        background-color:rgb(243, 61, 61);
+        border-top-left-radius: 5%;
+        border-top-right-radius: 10%;
+        border-radius: 15px 15px;
+        width: 100%;
+        height: 100px;
+        text-align: center;
+    }
+    .main-footer ul li{
+        list-style-type: none;
+        text-align: center;
+        display: inline-block;
+        padding: 1%;
+        border-right-color: white;
+        font-weight: 600;
+        border-right-style: solid;
+        border-right-width: 2px; 
+        margin-top: 3%;
+    }
+    .main-footer ul li a{
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        padding: 1%;
     }
 }
 @media screen and (min-device-width : 1024px) {
@@ -255,9 +280,8 @@
     body{    
         text-align: justify;
         font-family: 'Roboto', sans-serif;
-        background-size: cover;
-        background-image:url(images\bg-body.png);
-        }   
+        background-image: url(../images/bg-body.png);
+    }   
     .banner{
         margin-top: 2%;
         display: block;
@@ -288,10 +312,10 @@
         text-align: center;
         list-style-type: none;
         display:inline;
-        padding: 8px 4% 8px;
+        padding: 10px 5% 10px;
         position: relative;
-        margin-right: auto;
-        margin-left: auto;
+        margin-right: 0%;
+        margin-left: 0%;
     }
     .vip-products{
         display: flex;
@@ -321,7 +345,7 @@
     }
     .zoom{
         position: absolute;
-        width: 98%;
+        width: 97%;
         height: auto;
         bottom: 40%;
         background-color: rgba(0, 0, 0, 0.3);
@@ -339,5 +363,31 @@
         margin-bottom: 5%;
         margin-top: 2%;
     }
-
+    .main-footer{
+        display: block;
+        background-color:rgb(243, 61, 61);
+        border-top-left-radius: 5%;
+        border-top-right-radius: 10%;
+        border-radius: 15px 15px;
+        width: 100%;
+        height: 100px;
+        text-align: center;
+    }
+    .main-footer ul li{
+        list-style-type: none;
+        text-align: center;
+        display: inline-block;
+        padding: 1%;
+        border-right-color: white;
+        font-weight: 600;
+        border-right-style: solid;
+        border-right-width: 2px; 
+        margin-top: 2%;
+    }
+    .main-footer ul li a{
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        padding: 1%;
+    }
 }
