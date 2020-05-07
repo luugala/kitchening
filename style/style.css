@@ -1,49 +1,343 @@
-@media (max-width: 460px){
-img{
-    display:block;
-    margin:auto;
-    }
-.container{
-    background-size: cover;
-    background-image:url(images\bg-body.png);
-}
-body{    
-       text-align: justify;
-       font-family: 'Roboto', sans-serif;
-    }
-.main-nav ul{background-color: gray;
-    text-align: center;
-    text-decoration: none;
-    list-style: none;
-    }
-.banner{
-        display: none;
-    }
-}
-@media (min-width: 460px) {
-    body{background-size: cover;
+@media screen and (max-width: 767px){
+
+    body{
+        text-align: left;
+        font-family: 'Roboto', sans-serif;
         background-image:url(images\bg-body.png);
-    };
-    .main-header{
-        display: block;
-        margin: auto;
-    }
-    img{
-        display:block;
-        margin:auto;
         }
     .container{
-        background-size: cover;
-        background-image:url(images\bg-body.png);
+        display: block;
+        margin-left: auto;
+        margin-right:auto;
+        position: relative;
+    }
+    .main-header{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        margin-bottom: 2%;
+    }
+    .logo{
+        border-radius: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-bottom: 2%;
+    }
+    .main-nav ul {
+        text-align: center;
+        display: block;
+        padding: 0;
+        position: relative;
+        margin: 0;
+    }
+    li{
+        display: block;
+        color:white;
+        background-color: grey;
+        text-decoration: none;
+        font-size: larger;
+        padding:5px;  
+        border: 1;  
+        margin-bottom: 1%;
+    }
+    .banner{
+        display: none;
+    }
+    .main-footer ul {
+        text-decoration:none;
+        text-align:center;
+        display:block;
+        list-style-type:none;
+        padding: 0;
+        position:relative;
+        margin: 0;
+        margin-top: 4%;
+    }
+    .more{
+        background-color: gray;
+        text-decoration:none;
+        padding: 2%;
+        color: white;
+        margin-bottom: 5%;
+        
+    }
+    .vip-products{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .product{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    .photo-container{
+        position: relative;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        margin-top: 5%;
+    }
+    .special {
+        width: 20%;
+        height: 30%;
+        left: 80%;
+        position: absolute;
+        top:0%;
+    }
+    .photo{
+        position: relative;
+        width: 100%
+    }
+    .zoom{
+        position: absolute;
+        width: 100%;
+        height: auto;
+        bottom: 45%;
+        background-color: rgba(0, 0, 0, 0.3);
+        text-decoration: none;
+        padding:10px;
+        text-align: center;
+        color: white;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+} 
+@media screen and (min-device-width : 768px) and (max-device-width : 1023px){
+
+    .container{
+        display: block;
+        margin-left: 0%;
+        margin-right: 0%;
+        position: relative;
+    }
+    .main-nav ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    .banner{
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .main-header{
+        display: block;
+        position: relative;
+    }
+    .logo{
+        border-radius: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-bottom: 2%;
     }
     body{    
-           text-align: justify;
-           font-family: 'Roboto', sans-serif;
+        text-align: justify;
+        font-family: 'Roboto', sans-serif;
+        background-size: cover;
+        background-image:url(images\bg-body.png);
+    }   
+    .banner{
+        margin-top: 2%;
+        display: block;
+        position: relative;
+        margin-left: 0;
+        margin-right: 0;
     }
-    .main-nav ul{background-color: gray;
+    .banner img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .main-nav ul {
+        text-decoration: none;
         text-align: center;
-        list-style: none;
-        ;
-        }
-  }
-  
+        display: block;
+        list-style-type: none;
+        padding: 0;
+        position: relative;
+        width: 100%;
+    }
+    .main-nav li{
+        background-color: gray;
+        text-align: center;
+        list-style-type: none;
+        display:inline;
+        padding: 8px 4% 8px;
+        position: relative;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .vip-products{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 1%;
+        justify-content: space-between;
+    }
+    .product{
+        position: relative;
+        width: 49%;
+        margin-bottom: 3%;
+    }
+    .photo-container{
+        position: relative;
+        margin: auto;
+    }
+    .special {
+        width: 18%;
+        height: 30%;
+        left: 80%;
+        position: absolute;
+        top:0%;
+    }
+    .photo{
+        position: relative;
+        width: 100%
+    }
+    .zoom{
+        position: absolute;
+        width: 98%;
+        height: auto;
+        bottom: 40%;
+        background-color: rgba(0, 0, 0, 0.3);
+        text-decoration: none;
+        padding:5px;
+        text-align: center;
+        color: white;
+        font-weight: 550
+    }
+       .more{
+        background-color: gray;
+        text-decoration:none;
+        padding: 2%;
+        color: white;
+        margin-bottom: 5%;
+        margin-top: 2%;
+    }
+}
+@media screen and (min-device-width : 1024px) {
+   
+    .container{
+        display: block;
+        margin-left: 0%;
+        margin-right: 0%;
+        position: relative;
+    }
+    .main-nav ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    .banner{
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .main-header{
+        display: block;
+        position: relative;
+    }
+    .logo{
+        border-radius: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-bottom: 2%;
+    }
+    body{    
+        text-align: justify;
+        font-family: 'Roboto', sans-serif;
+        background-size: cover;
+        background-image:url(images\bg-body.png);
+        }   
+    .banner{
+        margin-top: 2%;
+        display: block;
+        position: relative;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .banner img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .main-nav ul {
+        text-decoration: none;
+        text-align: center;
+        display: block;
+        list-style-type: none;
+        padding: 0;
+        position: relative;
+        width: 100%;
+    }
+    .main-nav li{
+        background-color: gray;
+        text-align: center;
+        list-style-type: none;
+        display:inline;
+        padding: 8px 4% 8px;
+        position: relative;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .vip-products{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 1%;
+        justify-content: space-between;
+    }
+    .product{
+        position: relative;
+        width: 32%;
+        margin-bottom: 3%;
+    }
+    .photo-container{
+        position: relative;
+        margin: auto;
+    }
+    .special {
+        width: 18%;
+        height: 30%;
+        left: 80%;
+        position: absolute;
+        top:0%;
+    }
+    .photo{
+        position: relative;
+        width: 100%
+    }
+    .zoom{
+        position: absolute;
+        width: 98%;
+        height: auto;
+        bottom: 40%;
+        background-color: rgba(0, 0, 0, 0.3);
+        text-decoration: none;
+        padding:5px;
+        text-align: center;
+        color: white;
+        font-weight: 550
+    }
+    .more{
+        background-color: gray;
+        text-decoration:none;
+        padding: 2%;
+        color: white;
+        margin-bottom: 5%;
+        margin-top: 2%;
+    }
+
+}
